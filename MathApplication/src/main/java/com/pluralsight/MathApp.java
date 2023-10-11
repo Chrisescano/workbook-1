@@ -24,7 +24,7 @@ public class MathApp {
         System.out.printf("   The square root of %.3f is %f\n\n", numToBeSquared, numSquared);
 
         System.out.println("5. Distance between two points");
-        int x1 = 5, y1 = 85, x2 = 10, y2 = 50;
+        int x1 = 5, y1 = 10, x2 = 85, y2 = 50;
         double distanceBetweenPoints = Math.sqrt(Math.pow(x2 - x1, 2) + Math.pow(y2 - y1, 2));
         System.out.printf("   The distance between (%d,%d) and (%d,%d) is %.3f\n\n", x1, y1, x2, y2, distanceBetweenPoints);
 
