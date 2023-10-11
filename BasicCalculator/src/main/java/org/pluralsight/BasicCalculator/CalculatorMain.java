@@ -2,7 +2,7 @@ package org.pluralsight.BasicCalculator;
 
 import java.util.Scanner;
 
-public class BasicCalculator {
+public class CalculatorMain {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
